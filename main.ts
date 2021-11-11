@@ -235,7 +235,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, function (sprite, location) {
-    game.over(true, effects.confetti)
+    game.over(true, effects.starField)
 })
 let mySprite2: Sprite = null
 mySprite2 = sprites.create(img`
